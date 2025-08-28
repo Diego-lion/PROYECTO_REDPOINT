@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GRAY">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="135dp"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REDPOINT"
+            android:textColor="@color/RED"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/abril_fatface"
+            android:gravity="center"
+            android:text="Completa los datos para registrarse en el aplicativo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Nombre:" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress3"
+            android:layout_width="372dp"
+            android:layout_height="36dp"
+            android:background="@drawable/estilos_de_bordes"
+            android:hint="Ingresa tu nombre"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Apellido:" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress4"
+            android:layout_width="375dp"
+            android:layout_height="34dp"
+            android:background="@drawable/estilos_de_bordes"
+            android:hint="Ingresa tu apellido"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Correo:" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress5"
+            android:layout_width="373dp"
+            android:layout_height="36dp"
+            android:background="@drawable/estilos_de_bordes"
+            android:hint="correo@ejemplo.com"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Teléfono:" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress6"
+            android:layout_width="373dp"
+            android:layout_height="36dp"
+            android:background="@drawable/estilos_de_bordes"
+            android:hint="Número de teléfono"
+            android:inputType="phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Contraseña:"
+            />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress7"
+            android:layout_width="378dp"
+            android:layout_height="37dp"
+            android:background="@drawable/estilos_de_bordes"
+            android:hint="********"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Confirmar Contraseña:" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress8"
+            android:layout_width="378dp"
+            android:layout_height="37dp"
+            android:background="@drawable/estilos_de_bordes"
+            android:hint="********"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="He leído y acepto las políticas que maneja el aplicativo REDPOINT"
+            android:textSize="10sp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/RED"
+            android:text="Registrarse" />
+
+    </LinearLayout>
+</ScrollView>
