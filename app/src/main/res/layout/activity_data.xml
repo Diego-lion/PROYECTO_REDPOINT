@@ -45,7 +45,7 @@
             android:text="Nombre:" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress3"
+            android:id="@+id/Nombre"
             android:layout_width="372dp"
             android:layout_height="36dp"
             android:background="@drawable/estilos_de_bordes"
@@ -59,7 +59,7 @@
             android:text="Apellido:" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress4"
+            android:id="@+id/Apellido"
             android:layout_width="375dp"
             android:layout_height="34dp"
             android:background="@drawable/estilos_de_bordes"
@@ -73,7 +73,7 @@
             android:text="Correo:" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress5"
+            android:id="@+id/Correo"
             android:layout_width="373dp"
             android:layout_height="36dp"
             android:background="@drawable/estilos_de_bordes"
@@ -87,7 +87,7 @@
             android:text="Teléfono:" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress6"
+            android:id="@+id/Telefono"
             android:layout_width="373dp"
             android:layout_height="36dp"
             android:background="@drawable/estilos_de_bordes"
@@ -102,7 +102,7 @@
             />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress7"
+            android:id="@+id/Contraseña"
             android:layout_width="378dp"
             android:layout_height="37dp"
             android:background="@drawable/estilos_de_bordes"
@@ -116,7 +116,7 @@
             android:text="Confirmar Contraseña:" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress8"
+            android:id="@+id/confirmaContraseña"
             android:layout_width="378dp"
             android:layout_height="37dp"
             android:background="@drawable/estilos_de_bordes"

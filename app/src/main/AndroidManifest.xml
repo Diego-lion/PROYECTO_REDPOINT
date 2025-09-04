@@ -20,9 +20,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
-            android:name=".MainActivity"
+            android:name=".InicioActivity"
             android:exported="false"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ResgisterActivity"
+            android:exported="false"/>
+
+
+
 
         <meta-data
             android:name="preloaded_fonts"
